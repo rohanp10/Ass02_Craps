@@ -79,12 +79,12 @@ public class Ass02_Craps {
 
                     } else {
                         System.out.println("\nYou said your choice was: " + continueYN);
-                        System.out.println("You have to choose a valid option [Y/N]");
+                        System.out.println("You have to choose a valid option [Y/N]\n");
                     }
                 } else {
                     trash = in.nextLine();
                     System.out.println("\nYou said your choice was: " + trash);
-                    System.out.println("You have to choose a valid option [Y/N]");
+                    System.out.println("You have to choose a valid option [Y/N]\n");
 
                 }
             }
